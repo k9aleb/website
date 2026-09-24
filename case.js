@@ -210,6 +210,7 @@ async function playOpenSequence() {
   } else {
     prizeFrame.classList.remove("missing");
     document.getElementById("prize-caption").textContent = "@k9aleb";
+    document.getElementById("prize-caption").textContext = "kaleb@sweatyfeet.info"
   }
   statusEl.textContent = "Unboxed.";
   await wait(900);
