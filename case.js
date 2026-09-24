@@ -209,7 +209,7 @@ async function playOpenSequence() {
       "Drop prize.png in this folder";
   } else {
     prizeFrame.classList.remove("missing");
-    document.getElementById("prize-caption").textContent = "Exceedingly Rare";
+    document.getElementById("prize-caption").textContent = "@k9aleb";
   }
   statusEl.textContent = "Unboxed.";
   await wait(900);
